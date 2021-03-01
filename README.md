@@ -12,7 +12,7 @@ One of the most requested features from users is to help them identify interesti
 
 This is a typical problem you'll face as a Computer Vision Engineer at Envision. We'd like you a build an algorithm/model that detects headings in the test set in this repo given the OCR and bounding box output. 
 
-The algorithm can tailored to work with only the images that are provided. Your final result can be in the form of an executable Open-CV based Python/C++ script or be deployed as a Flask Web Server. For the sake of simplicity, we'll ignore all the other layout information within the image, such as columns, etc. unless you think that would be helpful in solving the problem.
+The algorithm can tailored to work with only the images that are provided. Your final result can be in the form of an executable Open-CV based Python/C++ script or be deployed as a Flask Web Server.
 
 The script accepts an image and returns the headings found in the image. Below is a sample of how the Python script could work.
 
@@ -25,6 +25,19 @@ Heading 1
 Heading 2
 Heading 3
 ```
+
+### Other Important Stuff
+
+---
+
+1.  For the sake of simplicity, we'll ignore all the other layout information within the image, such as columns, etc. unless you think that would be helpful in solving the problem.
+
+2. Also for simplicity's sake, you can assume that the images passed onto the script are properly cropped documents. You don't have to concern yourself with documents/images that don't go through a cropping/perspective-transform process.
+
+3. The emphasis for this assignment is the _core algorithm and less about code quality_. Though code quality is very much emphasised at Envision, I can understand that it might be time consuming as well at the early prototyping stage.
+
+4. If you think that there are other reasonable constraints you want to take into account, please do so and make a note of them in the code/readme.
+
 
 ### Deadline
 
