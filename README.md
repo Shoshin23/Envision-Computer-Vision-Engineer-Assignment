@@ -10,9 +10,11 @@ One of the most requested features from users is to help them identify interesti
 
 ---
 
-This is a typical problem you'll face as a Computer Vision Engineer at Envision. We'd like you a build an algorithm/model that detects headings in the test set in this repo given the OCR and bounding box output. 
+This is a typical problem you'll face as a Computer Vision Engineer at Envision. We'd like you a build an algorithm/model that detects headings in the given test set in this repo given the OCR and bounding box output. 
 
-The algorithm can tailored to work with only the images that are provided. Your final result can be in the form of an executable Open-CV based Python/C++ script or be deployed as a Flask Web Server.
+For OCR, you can use Google Cloud Vision to get the OCR output and use the bounding box data provided with this repo.
+
+The algorithm can tailored to work with only the images that are provided, these represent the most common type of images that users tend to use with Envision. Your final result can be in the form of an executable Open-CV based Python/C++ script or be deployed as a Flask Web Server.
 
 The script accepts an image and returns the headings found in the image. Below is a sample of how the Python script could work. 
 
