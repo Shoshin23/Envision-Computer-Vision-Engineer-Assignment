@@ -24,7 +24,7 @@ Heading 2
 Heading 3
 ``` 
 
-Note: You can also take a deep learning approach to solve this problem. If you're taking this approach then please implement it using a Jupyter Notebook and push that instead.
+**Note: You can also take a deep learning approach to solve this problem. If you're taking this approach then please implement it using a Jupyter Notebook and push that instead.**
 
 ### Other Important Stuff
 
