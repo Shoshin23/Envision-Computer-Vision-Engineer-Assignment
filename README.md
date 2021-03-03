@@ -12,12 +12,11 @@ One of the most requested features from users is to help them identify interesti
 
 This is a typical problem you'll face as a Computer Vision Engineer at Envision. We'd like you a build an algorithm/model that detects headings in the given test set in this repo given the OCR and bounding box output. 
 
-For OCR, you can use this endpoint that we provide: 
-This endpoint returns the text output along with the bounding box data. While there's no hard limit on this endpoint, please use it responsibly. 
+For OCR, you can use Google Cloud Vision OCR(or any Cloud-based OCR that returns bounding box data). If you're using Cloud Vision, you can follow this really simple tutorial to setup a sample API key: https://codelabs.developers.google.com/codelabs/cloud-vision-api-python
 
 The algorithm can tailored to work with only the images that are provided, these represent the most common type of images that users tend to use with Envision. Your final result can be in the form of an executable Open-CV based Python/C++ script or be deployed as a Flask Web Server.
 
-The script accepts an image and returns the headings found in the image. Below is a sample of how the Python script could work. 
+Your script/API endpoint should accept an image and return the headings found in the image. Below is a sample of how the Python script could work. 
 
 ```
 python detect_headings.py --image="/Users/EnvisionDev/test.jpg"
@@ -39,9 +38,9 @@ Heading 3
 
 3. The emphasis for this assignment is the _core algorithm and less about code quality_. Though code quality is very much emphasised at Envision, I can understand that it might be time consuming as well at the early prototyping stage.
 
-4. It's not mandatory to distinguish between the header types(H1, H2, H3, H4, etc.). Bonus points if you can work on distinguishing headings but that can be considered outside the scope of the implementation.
+4. It's not mandatory to distinguish between the header types(H1, H2, H3, H4, etc.). _Bonus points if you can work on distinguishing headings_ but that can be considered outside the scope of the implementation.
 
-5. If you think that there are other reasonable constraints you want to take into account, please do so and make a note of them in the code/ReadMe.
+5. If you think that there are other reasonable constraints you want to take into account, please do so and make a note of them in the code/readme.
 
 
 ### Deadline
