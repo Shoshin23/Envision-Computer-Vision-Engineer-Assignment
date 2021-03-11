@@ -14,7 +14,8 @@ This is a typical problem you'll face as a Computer Vision Engineer at Envision.
 
 For OCR, you can use Google Cloud Vision OCR(or any Cloud-based OCR that returns bounding box data). If you're using Cloud Vision, you can follow this really simple tutorial to setup a sample API key: https://codelabs.developers.google.com/codelabs/cloud-vision-api-python
 
-The algorithm can tailored to work with only the images that are provided, these represent the most common type of images that users tend to use with Envision. Your final result can be in the form of an executable Open-CV based Python/C++ script or be deployed as a Flask Web Server.
+
+The algorithm can tailored to work with only the images that are provided, these represent the most common type of images that users tend to use with Envision. Your final result can be in the form of an executable Python/C++ script or be deployed as a Flask Web Server.
 
 Your script/API endpoint should accept an image and return the headings found in the image. Below is a sample of how the Python script could work. 
 
